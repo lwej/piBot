@@ -7,6 +7,7 @@ public class piBot {
     public static void main(String[] args) throws IOException, InterruptedException {
         // Start server and receive Maze File on RPI
         Scanner input = new Scanner(System.in);
+        System.out.print("Enter port: ");
         Maze.start(input.nextInt());
         System.out.println("Starting...");
         Gpio.wiringPiSetup();
