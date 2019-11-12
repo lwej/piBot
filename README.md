@@ -4,10 +4,15 @@ The piBot runs a server via sockets that accepts a file from the client.
 For now it works with a specific file that should look like this.
 
 00000N00000
+
 00000N00000
+
 000EEN00000
+
 000N0000000
+
 000NWWW0000
+
 000000N0000
 
 The piBot reads the file and turns the lines into a char array , deleting the zeros.
