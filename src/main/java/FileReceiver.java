@@ -8,7 +8,6 @@ class FileReceiver {
     public static void start(int port) throws IOException {
         int bytesRead;
         ServerSocket server = new ServerSocket(port);
-        // FileReceiver.port = port;
         System.out.println("Waiting for connection");
         Socket socket = server.accept();
         System.out.println("Connection established");
