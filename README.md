@@ -19,12 +19,11 @@ The main class piBot.java is where it goes through the char array "path" and mak
 
 The maze file should look like this
 ```
-00000800000
-00000800000
-00068400000
-00080000000
-00068840000
-00000080000
+08000
+08000
+06840
+00080
+00080
 ```
 This is an image to explain the logic of the controls
 
